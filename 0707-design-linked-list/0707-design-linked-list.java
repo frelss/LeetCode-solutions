@@ -16,8 +16,7 @@ class MyLinkedList {
     }
     
     public int get(int index) {
-       if(index >= length)
-        	return -1;
+       if(index >= length) return -1;
         
         int counter = 0;
         Node temp = head;
