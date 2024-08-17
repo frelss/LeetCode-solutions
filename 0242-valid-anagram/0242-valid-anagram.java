@@ -8,11 +8,11 @@ class Solution {
         char[] word1 = s.toCharArray();
         char[] word2 = t.toCharArray();
         
-       for (Character wordOne : word1) {
+       for (char wordOne : word1) {
             string1.put(wordOne, string1.getOrDefault(wordOne, 0) + 1);
         }
         
-        for (Character wordTwo : word2) {
+        for (char wordTwo : word2) {
             string2.put(wordTwo, string2.getOrDefault(wordTwo, 0) + 1);
         }
         
